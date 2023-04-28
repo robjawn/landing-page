@@ -1,0 +1,21 @@
+.nav-bar {
+    display: flex;
+    width: max-content;
+    flex: 1 auto;
+    gap: 500px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    padding-right: 1rem;
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
