@@ -19,3 +19,41 @@
     align-items: center;
     justify-content: center;
 }
+
+.main {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main img {
+    height: 400px;
+    width: auto;
+    background-size: contain;
+}
+
+.info {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square-container {
+    display: flex;
+}
+
+.square-container div {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-color: blue;
+}
