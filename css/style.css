@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
+    font-family: 'Roboto', arial;
     background-color:#1F2937;
     color: white;
 }
@@ -7,6 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .nav-bar h2 {
@@ -37,6 +42,13 @@ body {
     align-items: stretch;
 }
 
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
 .main-text h1 {
     font-size: 48px;
     font-weight: bold;
@@ -44,6 +56,20 @@ body {
 
 .main-text p {
     font-size: 18px;
+}
+
+.main-text button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .main img {
